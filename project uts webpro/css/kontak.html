@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="nazmi_header">
+        <div class="nazmi_judul_web">
+            <h2>Bengkel Mobil</h2>
+            <p>Solusi Servis Transparan & Modern</p>
+        </div>
+        <nav class="nazmi_nav">
+            <a href="index.html">Home</a>
+            <a href="booking.html">Booking Jadwal</a>
+            <a href="lacak.html">Lacak Status</a>
+            <a href="biaya.html">Persetujuan Biaya</a>
+            <a href="cek.html">Cek Sparepart</a>
+            <a href="kontak.html">Kontak</a>
+            <a href="admin.html" class="nazmi_btn_admin">Admin & Mekanik</a>
+        </nav>
+    <main id="kontak_bengkel">
+        <section>
+            <h1>Hubungi AutoFix Bengkel</h1>
+            <p>Punya pertanyaan seputar kondisi mobil atau butuh layanan darurat? Tim kami siap membantu.</p>
+        </section>
+        <section>
+            <article>
+                <h2>Informasi Kontak & Lokasi</h2>
+                <p><strong>Alamat Bengkel:</strong> Jl. Soekarno-Hatta No. 123, Bandung, Jawa Barat</p>
+                <p><strong>WhatsApp & Layanan Darurat:</strong> 0812-3456-7890</p>
+                <p><strong>Email:</strong> halo@autofixbengkel.id</p>
+                <p><strong>Jam Operasional:</strong> Senin - Sabtu (08.00 - 17.00 WIB)</p>
+            </article>
+            <article>
+                <article style="color: black;">
+                <h2>Kirim Pesan Langsung</h2>
+                <form action="#" method="post">
+                    <label for="nama_kontak">Nama Lengkap:</label><br>
+                    <input type="text" id="nama_kontak" name="nama_kontak" placeholder="Contoh: Budi Santoso" required><br><br>
+
+                    <label for="wa_kontak">Nomor WhatsApp:</label><br>
+                    <input type="tel" id="wa_kontak" name="wa_kontak" placeholder="Contoh: 0812-3456-7890" required><br><br>
+
+                    <label for="topik">Topik Pertanyaan:</label><br>
+                    <select id="topik" name="topik">
+                        <option value="konsultasi">Konsultasi Kerusakan Mobil</option>
+                        <option value="sparepart">Tanya Ketersediaan & Harga Sparepart</option>
+                        <option value="darurat">Layanan Derek / Mekanik Panggilan</option>
+                        <option value="lainnya">Kritik, Saran & Lainnya</option>
+                    </select><br><br>
+
+                    <label for="pesan">Pesan Anda:</label><br>
+                    <textarea id="pesan" name="pesan" rows="4" placeholder="Tuliskan keluhan mobil atau pertanyaan Anda di sini..." required></textarea><br><br>
+
+                    <button type="submit">Kirim Pesan</button>
+                </form>
+            </article>
+        </section>
+    </main>
+</header>
+</body>
+</html>

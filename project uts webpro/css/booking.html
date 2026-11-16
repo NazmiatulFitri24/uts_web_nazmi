@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <header class="nazmi_header">
+        <div class="nazmi_judul_web">
+            <h2>Bengkel Mobil</h2>
+            <p>Solusi Servis Transparan & Modern</p>
+        </div>
+        <nav class="nazmi_nav">
+            <a href="index.html">Home</a>
+            <a href="booking.html">Booking Jadwal</a>
+            <a href="lacak.html">Lacak Status</a>
+            <a href="biaya.html">Persetujuan Biaya</a>
+            <a href="cek.html">Cek Sparepart</a>
+            <a href="kontak.html">Kontak</a>
+            <a href="admin.html" class="nazmi_btn_admin">Admin & Mekanik</a>
+        </nav>
+        <h1>Formulir Booking Servis Online </h1>
+        <p>Pilih jadwal kedatangan anda untuk menghindari antrean panjang di bengkel</p>
+        <form action="proses.php" method="post">
+            <label for="nama">Nama Lengkap</label>
+            <input type="text" id="nama" name="nama" placeholder="Contoh: Budi Santoso" required >
+            <br>
+            <label for="mobil">Model / Merek Mobil</label>
+            <input type="text" id="mobil" name="mobil" placeholder="Contoh: Toyota Avanza (B 1234 XYZ)" required>
+            <br>
+            <label for="whatsapp">Nomor Telepon (WhatsApp)</label>
+            <input type="tel" id="whatsapp" name="whatsapp" placeholder="Contoh: 0812-3456-7890" required>
+            <br>
+            <label for="tanggal">Pilih Tanggal Servis</label>
+            <input type="date" id="tanggal" name="tanggal" required>
+            <br>
+            <label for="servis">Keluhan / Jenis Servis</label>
+            <textarea id="pesan" name="pesan" rows="4" placeholder="Contoh: Rem berdencit dan mesin terasa kurang bertenaga..." required></textarea><br><br>
+            <br>
+            <input type="submit" value="Kirim Permintaan Booking">
+            </select>
+        </form>
+        <table border="1" cellpadding="10">
+    </body>
+    </html>
+    

@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+.nazmi_header {
+    background-color: #1e293b;
+    color: #ffffff;
+    padding: 15px 25px;
+}
+
+.nazmi_header h2 {
+    margin: 0;
+    color: #ffffff;
+}
+
+.nazmi_header p {
+    margin: 5px 0 15px 0;
+    color: #cbd5e1;
+    font-size: 14px;
+}
+
+.nazmi_nav a {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #334155;
+    padding: 6px 10px;
+    margin-right: 5px;
+    display: inline-block;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.nazmi_nav a:hover {
+    background-color: #475569;
+}
+
+.nazmi_btn_admin {
+    background-color: #f59e0b !important;
+    color: #000000 !important;
+    font-weight: bold;
+}
+
+main, .nazmi_home, #nazmi_admin, #lacak_status, #persetujuan_biaya, #cek_sparepart, #kontak_bengkel {
+    width: 85%;
+    margin: 20px auto;
+}
+
+h1 {
+    color: #1e293b;
+}
+
+article, .nazmi_card {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #cccccc;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+article p, article h2, article h3, article small, article strong, article label, article div {
+    color: #000000 !important;
+}
+
+article span {
+    background-color: #e2e8f0;
+    color: #0f172a !important;
+    padding: 3px 6px;
+    font-size: 12px;
+    font-weight: bold;
+    border: 1px solid #94a3b8;
+}
+
+progress {
+    width: 100%;
+    height: 18px;
+    margin-top: 6px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0;
+    background-color: #ffffff;
+}
+
+th {
+    background-color: #1e293b;
+    color: #ffffff;
+    border: 1px solid #999999;
+    padding: 8px;
+    text-align: left;
+}
+
+td {
+    border: 1px solid #999999;
+    padding: 8px;
+    color: #000000;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="date"],
+input[type="email"],
+select,
+textarea {
+    width: 90%;
+    padding: 6px;
+    margin-top: 4px;
+    margin-bottom: 10px;
+    border: 1px solid #888888;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+button, input[type="submit"] {
+    background-color: #2563eb;
+    color: #ffffff;
+    border: none;
+    padding: 8px 14px;
+    cursor: pointer;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #1d4ed8;
+}
